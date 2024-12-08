@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+            <style>
+        @media (max-width: 768px) {
+            main {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body class="p-4">
+    <header class="bg-blue-500 text-white p-4">
+        <h1 class="text-3xl">Grid and Flexbox Layout</h1>
+    </header>
+
+    <main class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-4 min-h-screen">
+        <section class="col-span-2 lg:grid lg:grid-cols-2 gap-2">
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-full max-w-full" src="https://images.unsplash.com/photo-1719937050446-a121748d4ba0?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8" alt="">
+                </div>
+                <div>
+                    <img class="h-full max-w-full" src="https://plus.unsplash.com/premium_photo-1709311452215-496c6740ca59?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8" alt="">
+                </div>
+                <div>
+                    <img class="h-full max-w-full" src="https://images.unsplash.com/photo-1727529117214-d3db857fdc3c?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5fHx8ZW58MHx8fHx8" alt="">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-full max-w-full" src="https://images.unsplash.com/photo-1731412895386-f243767a59c3?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyN3x8fGVufDB8fHx8fA%3D%3D" alt="">
+                </div>
+                <div>
+                    <img class="h-full max-w-full" src="https://images.unsplash.com/photo-1732530365779-dbf5bdf4bc63?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0NHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                </div>
+                <div>
+                    <img class="h-full max-w-full" src="https://images.unsplash.com/photo-1733176094174-0e06953c7700?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D" alt="">
+                </div>
+            </div>
+            <!-- <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="">
+                </div>
+            </div> -->
+        </section>
+        <aside class="bg-green-200 p-4">Sidebar</aside>
+    </main>
+
+    <footer class="bg-gray-800 text-white p-4 mt-4">
+        <p>&copy; 2024 John Doe's Blog</p>
+    </footer>
+</body>
+</html>
