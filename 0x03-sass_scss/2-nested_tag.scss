@@ -1,0 +1,12 @@
+@function zero($number) {
+  @return $number + 0;
+}
+
+body {
+  margin: zero(0px);
+  padding: zero(0px);
+  
+  p {
+    margin: zero(10px);
+  }
+}
