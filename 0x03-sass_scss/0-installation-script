@@ -1,0 +1,8 @@
+1. **Confirmed Node.js Installation:** I verified that Node.js and npm (Node Package Manager) were already installed on my system.  This is essential as some SASS installation methods rely on npm.
+
+2. **Chosen Installation Method (Homebrew):**  While npm is a common installation method for SASS, I opted for Homebrew for potentially faster compilation speeds, as Homebrew installs a pre-compiled binary rather than a JavaScript implementation.
+
+3. **Homebrew Installation:** I used the following command in my terminal to install SASS via Homebrew:
+
+   brew install sass/sass/sass
+
